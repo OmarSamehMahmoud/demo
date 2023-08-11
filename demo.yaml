@@ -1,7 +1,7 @@
 version: '1'
 services: 
   red:
-    image: redis
+    image: ubuntu
     ports:
       - 6001:6379
       
