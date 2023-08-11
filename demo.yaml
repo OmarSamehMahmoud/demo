@@ -1,0 +1,6 @@
+version: '1'
+services: 
+  red:
+    image: redis
+    ports:
+      6001:6379
