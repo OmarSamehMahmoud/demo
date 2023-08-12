@@ -1,7 +1,9 @@
-from python
+From python
 
 RUN mkdir /home/app
 
-COPY ./home/app
+COPY ./app /home/app
 
-CMD["python","red.py"]
+WORKDIR /home/app
+
+CMD ["python","red.py"]
