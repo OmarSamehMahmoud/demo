@@ -1,0 +1,2 @@
+docker build -t elarabyapp .
+docker run --device=/dev/ttyS0 elarabyapp

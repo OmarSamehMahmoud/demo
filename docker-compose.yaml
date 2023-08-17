@@ -1,0 +1,7 @@
+version: '3'
+services:
+  arduino_nano:
+    build:
+      context: .
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0

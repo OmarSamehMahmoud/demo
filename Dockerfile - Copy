@@ -1,9 +1,0 @@
-FROM arduino/arduino:latest
-
-WORKDIR /app
-
-COPY remote.ino .
-
-RUN arduino-cli compile -b nano remote.ino
-
-CMD arduino-cli upload -b uno remote.ino
